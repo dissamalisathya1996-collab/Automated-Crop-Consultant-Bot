@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #0c0d21;
+}
+
+
+
+
+body {
+	margin: 0px !important;
+}
+
+header {
+	background: #03fc6f;
+    width: 100%;
+    height: 50px;
+    border:  solid transparent;
+    padding: 0px;
+	margin: 0px;
+	position: fixed;
+	z-index:5000;
+	
+}
+
+.searchbar {
+	margin-left: 50%;
+	display: inline;
+	margin-top: 0px;
+}
+
+
+#search {
+	width: 20%;
+	border:  1.5px solid white;
+	background: transparent;
+	border-width: 0px 0px 1px 0px; 
+	color: white;
+}
+
+input[type=search]:focus {
+	outline:0;
+	background-color: transparent;
+
+}
+
+.register {
+	float: right;
+	display: inline;
+	margin-right: 15px;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-style: italic;
+	margin-top:3px;
+}
+
+
+#signin {
+	color: white;
+	width: 90px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 0px;
+    text-align: right;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:focus {outline:0;}
+
+#signup {
+	display: inline;
+	color: #a7a8db;
+	text-decoration: none;
+	text-align: left;
+	margin-right: 20px;
+}
+
+.page-body {
+	width: 92%;
+    height: 100%;
+    margin: 4%;
+}
+
+.dvd-cover {
+	display: inline-block;
+	width: 142px;
+	height: 202px;
+	margin: 30px 14px 14px 14px;
+	
+	font-size: 1.5rem;
+	text-align: center;
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+	transition: transform .3s; }
+	.dvd-cover {
+	  font-size: 6rem;
+	  margin-bottom: .5rem;
+	  display: inline-block;
+	  color: transparent; }
+	.dvd-cover:hover {
+	  transform: translateY(-1.5rem) scale(1.03); }
+}
+
+#push-content{
+	background: #03fc6f;
+    width: 100%;
+    height: 50px;
+    border:  solid transparent;
+    padding: 0px;
+	margin: 0px;
+	
+}
+
+#latestmov{
+	color: aliceblue;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 30px;
+}
+
+#searchbutton{
+	
+    width:18px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    
+	
+	width: 20px;
+}
+#logout,#profile{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+	
+
+}
+#logout:hover{
+	color:red;
+}
+#profile:hover{
+	color:blue;
+}
+#more{
+	margin-left: 90%;
+}
+#morelink{
+	color: white;
+	text-decoration: none;
+}
+#morelink:hover{
+	color:grey;
+}
+
+#footer {
+    height: 80px;
+    background-color: #322d38;
+    margin-top:500px;
+    position: relative;
+    clear: both;
+
+}
+
+#social {
+	width: 20%;
+    
+    margin-left: 90%;
+    display: block;
+}
+
+#container{
+    max-height: 100%;
+}
+#customer{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    display: block;
+    padding-top: 10px;
+}
+#customer:hover{
+    color: lightseagreen;
+}
+#feedback{
+    margin-left: 40%;
+    width: 20%;
+    text-align: center;
+}
+#adminlink{
+	text-decoration:none;
+	color:white;
+	margin-left: 170px;
+	
+	
+}
+#adminlink:hover{
+	color:grey;
+}
+
+

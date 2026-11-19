@@ -1,0 +1,44 @@
+.moviebox{
+    width: 142px;
+    margin-right: 28px;
+    height: 202px;
+    font-family: cursive;
+    margin-bottom: 50px;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    
+}
+.movielink{
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+}
+.movielink:hover{
+    color: gray;
+}
+#textoverimage{
+    position: absolute;
+    bottom: 0px;
+     
+    padding: 0px;
+
+}
+#block{
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    height: 30px;
+    width: 142px;
+    
+    filter: alpha(opacity=60);
+  /* IE */
+    -moz-opacity: 0.6;
+  /* Mozilla */
+    opacity: 0.7;
+}
+
+    
+

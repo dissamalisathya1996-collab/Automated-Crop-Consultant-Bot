@@ -1,0 +1,41 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div#form{
+    background-color:white;
+    float: left;
+    margin-top:5%;
+    margin-left:5%;
+    width: 40%;
+    
+
+}
+.textbox{
+    width: 85%;
+    border: 1px solid #3E81F3;
+    padding: 5px;
+    border-radius: 5px;
+}
+.label{
+    font-family: arial;
+    font-size: 15px;
+}
+#button{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #3E81F3;
+    width: 30%;
+    background-color: #3E81F3;
+    border-radius: 5px;
+
+}
+
+
+
+#image{
+    
+    opacity: 0.5;
+}
+
+  

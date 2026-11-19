@@ -1,0 +1,15 @@
+
+header {
+	background: #03fc6f;
+    width: 100%;
+    height: 50px;
+    border:  solid transparent;
+    padding: 0px;
+	margin: 0px;
+	position: fixed;
+	
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

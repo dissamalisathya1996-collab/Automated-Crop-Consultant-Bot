@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #0c0d21;
+
+}
+.moviebox{
+    margin-top:15px;
+    
+    
+    
+}
+#push-content{
+	background: #03fc6f;
+    width: 100%;
+    height: 50px;
+    border:  solid transparent;
+    padding: 0px;
+	margin: 0px;
+	
+}
+#allmov{
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+
